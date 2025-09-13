@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python -m apps.inferv1 -cfg ./configs/configs.yaml --mlpSe --sse --pamir_icon --PE_sdf 14 --pamir_vol_dim 6 --se_end_channel 3 --se_reduction 4 --se_start_channel 1  -gpu 0 -loop_smpl 100 -loop_cloth 200 -hps_type pymaf --ckpt_path ./ckpt/last.ckpt --expname infer_2 -in_dir ./test_2 -out_dir ./results
