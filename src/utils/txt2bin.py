@@ -21,6 +21,6 @@ def txt_to_bin(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_path = "/data/vdb/zhongyuhe/workshop/SuGaR/data_all/data_4/sparse/0"
-    output_path = "/data/vdb/zhongyuhe/workshop/SuGaR/data_all/data_4/sparse/0"
+    input_path = "./SuGaR/data_all/data_4/sparse/0"
+    output_path = "./SuGaR/data_all/data_4/sparse/0"
     txt_to_bin(input_path, output_path)
