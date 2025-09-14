@@ -1,5 +1,7 @@
 # AvatarMesh: 3D Avatar Mesh Generation from a Single Image
 
+> **Note**: This project originates from my earlier work and has been recently reorganized and released for reproducibility.
+
 **AvatarMesh** is a framework for generating high-quality 3D human avatars from a single input image.  
 
 <p align="center">
